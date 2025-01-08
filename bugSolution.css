@@ -1,0 +1,9 @@
+/* bugSolution.css */
+#myElement {
+  width: calc(100% - 0px);
+}
+/*Or*/
+#myElement {
+  width: calc(100% - 0em);
+}
+/*Or any other explicit unit*/
