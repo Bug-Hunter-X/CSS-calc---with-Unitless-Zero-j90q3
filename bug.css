@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations. However, using `calc()` with a unitless zero can sometimes lead to unexpected behavior in some browsers. For instance, `width: calc(100% - 0);` might not render as expected.  This is because some browsers might interpret the `0` as `0px`, `0em`, or another unit, which can affect the calculation. 
